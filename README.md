@@ -27,7 +27,6 @@ aws ls -1 aws-publicdatasets/common-crawl/crawl-data/CC-MAIN-2013-48/  | head -6
 You can copy one segment to your laptop (segment files are less than 1 gigabytes) using:
 
 ````````
-
 aws s3 cp s3://aws-publicdatasets/common-crawl/crawl-data/CC-MAIN-2013-48/segments/1386163035819/warc/CC-MAIN-20131204131715-00002-ip-10-33-133-15.ec2.internal.warc.gz <path_to_local_folder>
 ````````
 
